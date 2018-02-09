@@ -1,5 +1,4 @@
 body {
-	width: 1440px;
 	font-family: 'Exo', sans-serif;
 	margin: 0 auto;
 	padding: 0;
@@ -9,6 +8,10 @@ body {
 	background: url("../images/photo.png") no-repeat;
 	background-size: cover;
 	overflow: hidden;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
 }
 .title {
 	width: 708px;
@@ -48,11 +51,12 @@ body {
 }
 .block2{
 	display: inline-block;
+    width: 100%;
 	height: 724px;
 }
 .left_block {
 	box-sizing: border-box;
-	width: 872px;
+	width: 65%;
 	height: 724px;
 	background-color: #ffffff;
 	padding: 191px 152px 163px 149px;
@@ -82,11 +86,12 @@ body {
 	letter-spacing: 0.3px;
 }
 .right_block {
-	width: 568px;
+	width: 35%;
 	height: 724px;
 	background-color: #ededed;
 	float: right;
 	background-image: url("../images/rectangle-21.png");
+    background-repeat: no-repeat;
 }
 .block3 {
 	height: 675px;
@@ -317,6 +322,8 @@ body {
 	height: 467px;
 	background-color: #323969;
 	overflow: hidden;
+}
+.block7 .container {
 	position: relative;
 }
 .block7 .text_block_content {
@@ -336,8 +343,8 @@ body {
 	height: 41px;
 	position: absolute;
 	background: url("../images/arrow.png") no-repeat;
-	top: 210px;
-	left: 1032px;
+	top: 110px;
+	left: 1040px;
 }
 .input_forms {
 	margin: 40px auto;
